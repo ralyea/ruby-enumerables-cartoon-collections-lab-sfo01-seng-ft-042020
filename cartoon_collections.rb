@@ -18,5 +18,4 @@ def find_the_cheese(array)
   array.include? {|cheese_types| puts cheese_type}
 end
   array.!include? {|cheese_types| puts nil}
-end
-end
+
