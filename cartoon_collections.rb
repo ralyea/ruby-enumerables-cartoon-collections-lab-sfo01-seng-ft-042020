@@ -9,8 +9,8 @@ planeteer_calls = planeteer_calls.map {|name| "#{name.capitalize}!"
 }
 end
 
-def long_planeteer_calls
-  
+def long_planeteer_calls(calls)
+  calls.each {|name| name.length > 4}
 end
 
 def find_the_cheese# code an argument here
