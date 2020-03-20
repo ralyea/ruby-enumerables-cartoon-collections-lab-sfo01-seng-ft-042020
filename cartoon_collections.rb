@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   new = []
-  map! {|planeteer_calls| planeteer_call.capitalize } 
+  planeteer_calls.map! {|planeteer_calls| planeteer_call.capitalize } 
 planeteer_calls.each { |planeteer_call| new.push(planeteer_call) }
 end
 
