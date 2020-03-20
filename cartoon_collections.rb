@@ -5,10 +5,11 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  new = []
-  planeteer_calls.map! {|planeteer_calls| planeteer_call.capitalize } 
-planeteer_calls.each { |planeteer_call| new.push(planeteer_call) }
+planeteer_calls = planeteer_calls.map {|x|
+"#{x.capitalize}!"
+}
 end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
